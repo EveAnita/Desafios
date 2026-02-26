@@ -5,184 +5,21 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body{
-    font-family: Poppins, sans-serif;
-    background-color:  #674bb1;
-    max-width: 100%;justify-content: center;
-    align-items: center;
-    width: 900px;
-}
-.fundo-mobile img{
-    display: none;
-}
-.logo{
-    display: flex;
-    position: relative;
-    top: 40px;
-}
-section{
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  top: 106px;
-  left: 210px;
-  gap: 40px;
-  z-index: 1;
-}
- #desktop{
-    display: flex;
-    position: relative;
-    right: 27px;
-    width: 550px;
-    z-index: 1;
-}
-.container {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-items: flex-start;
-  bottom: 30px;
-  gap: 24px;
-  width: 500px;
-  z-index: 1;
-}
- h1{
-    width: 360px;
-    color: white;
-    margin: 0;
-    font-weight: 400;
-}
-.Sobre{
-    color: white;
-    width: 490px;
-}
- .btn1{
-    display: inline-block;
-    background-color: white;
-    border-color: white;
-    box-shadow:1px 1px 10px black;
-    color: #674bb1;
-    padding: 10px 40px;
-    border-radius: 50px;
-    border: none;
-}
-.btn1:hover{
-    display: inline-block;
-    background-color:#ab4fc4;
-    border-color:#ab4fc4;
-    box-shadow:1px 1px 10px black;
-    color: white;
-    padding: 10px 40px;
-    border-radius: 50px;
-    border: none;
-}
-.logo {
-display: flex;
-position: relative;
-bottom: 480px;
-left: 80px;
-height: 40px;
-}
-.fundo img{
-    height:100%;
-    bottom: 0.1px;
-    left:50px;
-    position:absolute;
-    display: flex;
-    justify-self: center;
-    align-items: center;
-}
-  .social-media{
-    display: inline-block;
-    border:1px solid white;
-    border-radius: 50%;
-    position: relative;
-    top: 120px;
-    left: 116%;
-}
-.fa-brands fa-facebook-f{
-   display: inline-block;
-   font-size: 200em;
-}
-.attribution a{
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.attribution a:hover{
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    padding: 3px;
-    border-radius: 5px;
-    background-color: #f152c9;
+    height: 100vh;
+    background-color:  hsl(257, 40%, 49%);
+    background-image: url('./pastas do desafio/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-@media (max-width:375px){
-    body{
-        overflow: hidden;
-        max-width: 100%;
-        width: auto;
-        padding: 24px;
-    }
-    .fundo img{
-        display: none;
-    }
-    .fundo-mobile img{
-        display: block;
-        width: 339px;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        bottom: 380px;
-}
-.logo{
-    display: flex;
-    position: relative;
-    height:27px;
-    top: -14px;
-    left: 1px;
-}
-#desktop{
-    display: flex;
-    position: relative;
-    width: 247px;
-    bottom: 75px;
-}
-section{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 30px;
-}
-.social-media{
-    bottom: 20px;
-}
 .container{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    bottom: 70px;
+    max-width: 1440px;
+    background-color: pink;
+    margin: auto;
 }
-h1{
-     width: 300px;
-    font-size: 2rem;
-}
-.Sobre{
-    text-align: center;
-    width: 200px;
-   font-size: 0.9rem;
-}
-.btn1{
-    padding: 10px 60px;
-}
-.btn1:hover{
-   
-}
-.attribution{
-    display: none;
-  
-} 
+
+header{
+
 }
