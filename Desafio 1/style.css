@@ -14,12 +14,59 @@ body{
     background-size: contain;
 }
 
-.container{
+.container{ 
     max-width: 1440px;
-    background-color: pink;
-    margin: auto;
+    display: flex;
+    position: absolute;
+    top: 145px;
+    left: 3%;
+}
+header img{
+  height: 30px;
+  top: 60px;
+  left: 90px;
+  display: flex;
+  position: relative;
+}
+ 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
-header{
-
+main img{
+    width: 560px;
+    right: 90px;
 }
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    background-color: turquoise;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 45px;
+    border-radius: 25px;
+    border: none;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 2px 2px 2px black;
+    align-self: flex-start;
+}
+
+.btn:hover{
+    background-color: #a84fc6;
+    color: white;
+}
+
+h1, p{
+  color: white;
+  font-weight: 400;
+  width: 400px;
+  font-family: poppins, sans-serif;
+}
+
