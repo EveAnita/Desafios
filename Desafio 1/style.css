@@ -144,20 +144,26 @@ h1{
     width: 300px;
     font-size: 1.5em;
     text-align: center;
-    left: -55px;
+    left: -68px;
 }
 
 p{
      display: flex;
     position: relative;
     width: 260px;
-    font-size: 1em;
+    font-size: 0.8em;
     text-align: center;
+    left: -45px;
 }
 
-
+.btn{
+    padding: 10px 80px;
+        display: flex;
+        position: relative;
+        right: 20px;
+}
 footer{
-     
+     right: 190px;
 }
 
 footer i{
