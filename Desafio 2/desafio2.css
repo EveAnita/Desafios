@@ -107,7 +107,6 @@ article li{
         text-indent: 2px;
         margin:0px 5px;
         color: rgb(153, 149, 149);
-        height: 100vh;
     }
 
     #container main h1 {
@@ -130,7 +129,7 @@ article li{
     #container section {
         background-color: hsl(179, 62%, 43%);
         color: rgb(241, 238, 238);
-        height: 100vh;
+        
     }
 
     #container section h2{
