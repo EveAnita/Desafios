@@ -21,8 +21,8 @@ body{
     grid-template-areas: 'main main'
     'section article'
     'section article';
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: 100vh;
 }
 
 #container main{
@@ -32,18 +32,18 @@ body{
 
 #container main h1{
     color: hsl(179, 62%, 43%);
-     margin: 20px;
+     margin: 30px;
 }
 #container main span{
     color: hsl(71, 73%, 54%);
-    margin: 20px;
+    margin: 30px;
 }
 #container main p{
     color: rgba(61, 60, 60, 0.534);
     line-height: 30px;
   font-size: 1.1rem;
   width: 590px;
-  margin: 20px;
+  margin: 30px;
 }
 #container section{
     background-color: hsl(179, 62%, 43%);
@@ -56,7 +56,7 @@ body{
     font-size: 1.1rem;
 }
 #container section h2{
-    margin:30px 20px;
+    margin:30px 30px;
 }
 section h3{
     margin:  30px 30px;
