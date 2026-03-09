@@ -56,7 +56,8 @@ div{
 a img{
     display: flex;
     position: relative;
-    left: 50%;
+    top: 10px;
+    left: 75%;
     height: 60px;
 }
 .supervisor{
