@@ -15,8 +15,35 @@ body{
  max-width: 90rem;
  font-size: 15px;
 }
+.mobile{
+    visibility: hidden;
+   }
+
+.desktop{
+    visibility:visible;
+   }
 
 @media (max-width:23.4375rem) {
+   .desktop{
+    visibility: hidden;
+   }
+   .mobile{
+    visibility: visible;
+   }
+   
+
+   .top{
+    position: absolute;
+    left: 0;
+    top: 0;
+   }
+
+   .bottom{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+   }
+
    main{
     display: flex;
     flex-direction: column;
