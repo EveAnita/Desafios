@@ -136,15 +136,18 @@ footer{
        width: 300px;
        height: 300px;
        color: white;
-        gap: 5px;
-       display: grid;
-       grid-template-columns: 1fr 1fr 1fr;
+        gap: 3px;
        justify-content: center;
        align-items: center;
+        display: grid;
+       grid-template-columns: 0fr 1fr;
     }
-
-    .DIV{
-        width: 600px;
+  
+    .text{
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+        width: 200px;
     }
 
     .cliente-2{
@@ -153,7 +156,8 @@ footer{
        border-radius: 10px;
        width: 300px;
        height: 300px;
-      
+    display: grid;
+       grid-template-columns: 0fr 1fr;
        justify-content: center;
         gap: 5px;
        align-items: center;
@@ -167,8 +171,8 @@ footer{
        width: 300px;
        height: 300px;
         gap: 5px;
-       display: grid;
-       grid-template-columns: 1fr 1fr 1fr;
+      display: grid;
+       grid-template-columns: 0fr 1fr;
        justify-content: center;
        align-items: center;
        color: white;
