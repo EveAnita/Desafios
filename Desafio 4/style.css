@@ -133,17 +133,26 @@ footer{
        margin-bottom: 10px;
        background-color: hsl(300, 43%, 22%);
        border-radius: 10px;
-       width: 300px;
-       height: 300px;
+         width: 300px;
+         padding: 10px;
        color: white;
-        gap: 3px;
        justify-content: center;
        align-items: center;
         display: grid;
-       grid-template-columns: 0fr 1fr;
+       grid-template-columns:auto 1fr;
+    }
+
+    .info{
+        display: flex;
+        grid-columns: span 2;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
     }
   
     .text{
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 0px;
@@ -155,9 +164,8 @@ footer{
        background-color: hsl(300, 43%, 22%);
        border-radius: 10px;
        width: 300px;
-       height: 300px;
     display: grid;
-       grid-template-columns: 0fr 1fr;
+       grid-template-columns: auto 1fr;
        justify-content: center;
         gap: 5px;
        align-items: center;
@@ -169,10 +177,9 @@ footer{
        background-color: hsl(300, 43%, 22%);
        border-radius: 10px;
        width: 300px;
-       height: 300px;
         gap: 5px;
       display: grid;
-       grid-template-columns: 0fr 1fr;
+       grid-template-columns: auto 1fr;
        justify-content: center;
        align-items: center;
        color: white;
