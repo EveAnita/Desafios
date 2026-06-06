@@ -21,7 +21,6 @@ body{
 
 .desktop{
     visibility:visible;
-   }
 
     .top{
     position: absolute;
@@ -206,8 +205,8 @@ body{
         position: relative;
         left: 15px;
      }
-
-
+   }
+   
 
 @media (max-width:23.4375rem) {
    .desktop{
