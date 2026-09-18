@@ -12,7 +12,7 @@ Challenge 3
 
 <img width="1343" height="599" alt="image" src="https://github.com/user-attachments/assets/373883c8-8647-4bc9-ae9c-23e2c77527e5" />
 
-<img width="812" height="609" alt="image" src="https://github.com/user-attachments/assets/99fdd4c3-f096-44f1-bb1b-738491401e6e" />
+<img width="286" height="609" alt="image" src="https://github.com/user-attachments/assets/99fdd4c3-f096-44f1-bb1b-738491401e6e" />
 
 Challenge 4 
 
