@@ -4,7 +4,7 @@ Challenge 1
 
 Challenge 2
 
-<img width="741" height="629" alt="image" src="https://github.com/user-attachments/assets/911fb2de-90df-4bcd-b446-6b5b41e2c7a2" />
+<img width="286" height="629" alt="image" src="https://github.com/user-attachments/assets/911fb2de-90df-4bcd-b446-6b5b41e2c7a2" />
 
 <img width="1363" height="603" alt="image" src="https://github.com/user-attachments/assets/9263ca0e-2c8b-4a88-9640-690d7ff3786d" />
 
